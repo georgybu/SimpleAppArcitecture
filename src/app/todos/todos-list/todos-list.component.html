@@ -1,7 +1,5 @@
-<ng-container *ngIf="todos && todos.length">
-  <ul>
-    <li *ngFor="let todo of todos">
-      <m-todos-list-item [todo]="todo"></m-todos-list-item>
-    </li>
-  </ul>
-</ng-container>
+<ul *ngIf="todos && todos.length">
+  <li *ngFor="let todo of todos">
+    <m-todos-list-item [todo]="todo"></m-todos-list-item>
+  </li>
+</ul>

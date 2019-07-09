@@ -1,6 +1,6 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { TodosListComponent } from './todos-list.component';
+import {TodosListComponent} from './todos-list.component';
 
 describe('TodosListComponent', () => {
   let component: TodosListComponent;
@@ -8,9 +8,9 @@ describe('TodosListComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TodosListComponent ]
+      declarations: [TodosListComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

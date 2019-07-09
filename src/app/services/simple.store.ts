@@ -2,10 +2,8 @@
  * Based on
  * https://github.com/bennadel/JavaScript-Demos/tree/master/demos/simple-store-set-state-angular6
  */
-import { BehaviorSubject } from 'rxjs';
-import { distinctUntilChanged } from 'rxjs/operators';
-import { Observable } from 'rxjs';
-import { map } from 'rxjs/operators';
+import {BehaviorSubject, Observable} from 'rxjs';
+import {distinctUntilChanged, map} from 'rxjs/operators';
 
 export class SimpleStore<StateType = any> {
   private stateSubject: BehaviorSubject<StateType>;

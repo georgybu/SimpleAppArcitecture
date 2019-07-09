@@ -1,13 +1,10 @@
-import { Component, OnInit, Input } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'm-todos-list-item',
   templateUrl: './todos-list-item.component.html',
   styleUrls: ['./todos-list-item.component.scss']
 })
-export class TodosListItemComponent implements OnInit {
+export class TodosListItemComponent {
   @Input() todo;
-  constructor() {}
-
-  ngOnInit() {}
 }

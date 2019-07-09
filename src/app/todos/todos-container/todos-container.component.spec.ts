@@ -1,6 +1,6 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { TodosContainerComponent } from './todos-container.component';
+import {TodosContainerComponent} from './todos-container.component';
 
 describe('TodosContainerComponent', () => {
   let component: TodosContainerComponent;
@@ -8,9 +8,9 @@ describe('TodosContainerComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TodosContainerComponent ]
+      declarations: [TodosContainerComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
