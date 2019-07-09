@@ -1,0 +1,7 @@
+<button (click)="onLoadClick($event)">Load users</button>
+
+<ng-container *ngIf="users$ | async as users">
+  <m-loader *ngIf="users.loading"></m-loader>
+  <m-users-list [users]="users.data"></m-users-list>
+  <pre *ngIf="users.error">{{ users.error | json }}</pre>
+</ng-container>

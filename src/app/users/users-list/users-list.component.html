@@ -1,0 +1,7 @@
+<ng-container *ngIf="users && users.length">
+  <ul>
+    <li *ngFor="let user of users">
+      <m-users-list-item [user]="user"></m-users-list-item>
+    </li>
+  </ul>
+</ng-container>

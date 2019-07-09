@@ -1,0 +1,7 @@
+<button (click)="onLoadClick($event)">Load todos</button>
+
+<ng-container *ngIf="todos$ | async as todos">
+  <m-loader *ngIf="todos.loading"></m-loader>
+  <m-todos-list [todos]="todos.data"></m-todos-list>
+  <pre *ngIf="todos.error">{{ todos.error | json }}</pre>
+</ng-container>
