@@ -1,5 +1,6 @@
 /**
  * Based on
+ * https://www.bennadel.com/blog/3522-creating-a-simple-setstate-store-using-an-rxjs-behaviorsubject-in-angular-6-1-10.htm
  * https://github.com/bennadel/JavaScript-Demos/tree/master/demos/simple-store-set-state-angular6
  */
 import {BehaviorSubject, Observable} from 'rxjs';
