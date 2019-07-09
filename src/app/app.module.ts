@@ -13,17 +13,21 @@ import {TodosListItemComponent} from './todos/todos-list-item/todos-list-item.co
 import {LoaderComponent} from './shared/loader/loader.component';
 
 @NgModule({
-  declarations: [AppComponent,
+  declarations: [
+    AppComponent,
     UsersContainerComponent,
     UsersListComponent,
     UsersListItemComponent,
     TodosContainerComponent,
     TodosListComponent,
     TodosListItemComponent,
-    LoaderComponent],
-  imports: [BrowserModule,
+    LoaderComponent
+  ],
+  imports: [
+    BrowserModule,
     HttpClientModule,
-    AppRoutingModule],
+    AppRoutingModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
