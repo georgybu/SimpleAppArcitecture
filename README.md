@@ -1,5 +1,9 @@
 ![SimpleAppArcitecture](docs/mGrid-SimpleAppArcitecture.png?raw=true 'SimpleAppArcitecture')
 
+## You can find same pattern here
+
+https://github.com/angular-extensions/model
+
 # NgAppExample
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.4.
